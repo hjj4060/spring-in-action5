@@ -53,7 +53,7 @@ public class DesignTacoController {
         return "design";
     }
 
-    private List<Ingredient> filterByType(
+    public List<Ingredient> filterByType(
             List<Ingredient> ingredients, Type type) {
         return ingredients
                 .stream()
